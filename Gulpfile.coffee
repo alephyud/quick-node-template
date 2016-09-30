@@ -9,9 +9,9 @@ gutil = require 'gulp-util'
 gulp.task 'css', ->
   gulp.src 'src/styles/*.styl'
     .pipe stylus()
+    .on 'error', (err) -> console.log err.toString(); @emit 'end'
     .pipe concatCss 'styles.css'
     .pipe gulp.dest 'public/css'
-  .on 'error', (err) -> console.log err.toString(); @emit 'end'
 
 
 gulp.task 'js', ->
