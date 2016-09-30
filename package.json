@@ -1,0 +1,32 @@
+{
+  "name": "node-coffee-template",
+  "version": "1.0.0",
+  "description": "A template for Node.JS with Coffeescript, Gulp, Browserify and Jade",
+  "main": "start.js",
+  "keywords": [
+    "xjump",
+    "games"
+  ],
+  "author": "AI",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "body-parser": "^1.15.2",
+    "bunyan": "^1.8.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.5.0",
+    "gulp-util": "^3.0.7",
+    "browserify": "^13.1.0",
+    "coffeeify": "^2.0.1",
+    "debowerify": "^1.5.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
